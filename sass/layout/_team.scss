@@ -1,0 +1,170 @@
+.section-title {
+  margin-bottom: 30px;
+  color: var(--secondary-text-color);
+  font-size: 28px;
+  line-height: 1.17;
+  text-align: center;
+}
+.team-member {
+  text-align: center;
+  margin-bottom: 10px;
+  color: var(--secondary-text-color);
+  @include font(16px, 500, 1.19);
+}
+.team-text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.19;
+  margin-bottom: 16px;
+}
+.div-member {
+  padding: 24px 30px;
+  background-color: var(--therd-text-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.cards-color:nth-child(n + 7) {
+  border: 1px solid #eeeeee;
+}
+
+.list-member {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 30px;
+}
+
+/*.marg-member {
+  width: 450px;
+  height: 622px;
+  
+}*/
+
+.member-svg {
+  @extend %align;
+  gap: 10px;
+}
+.link-member-svg {
+  @extend %align;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  gap: 10px;
+  color: #afb1b8;
+  background-color: var(--therd-text-color);
+  transition: color var(--transition-dur-and-funk),
+    background-color var(--transition-dur-and-funk);
+
+  &:hover,
+  &:focus {
+    color: var(--therd-text-color);
+    background-color: var(--accent-color);
+  }
+}
+.focus-svg {
+  fill: currentColor;
+}
+
+.color-member-team {
+  background-color: #f5f4fa;
+}
+
+@media screen and (min-width: 768px) {
+  .list-member {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .marg-member {
+    width: 339px;
+    
+  }
+  .member-svg {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .list-member {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+    .marg-member {
+      width: 270px;
+    }
+}
+
+/*.section-title {
+  margin-bottom: 50px;
+  color: var(--secondary-text-color);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 10px;
+  color: var(--secondary-text-color);
+  @include font(16px, 500, 1.19);
+}
+
+.team-text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.19;
+  margin-bottom: 16px;
+}
+
+.div-member {
+  padding: 24px 30px;
+  background-color: var(--therd-text-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.cards-color:nth-child(n + 7) {
+  border: 1px solid #eeeeee;
+}
+
+.list-member {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.member-svg {
+  @extend %align;
+  gap: 10px;
+}
+
+.link-member-svg {
+  @extend %align;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  gap: 10px;
+  color: #afb1b8;
+  background-color: var(--therd-text-color);
+  transition: color var(--transition-dur-and-funk),
+    background-color var(--transition-dur-and-funk);
+
+  &:hover,
+  &:focus {
+    color: var(--therd-text-color);
+    background-color: var(--accent-color);
+  }
+}
+
+.focus-svg {
+  fill: currentColor;
+}
+
+.color-member-team {
+  background-color: #f5f4fa;
+}*/

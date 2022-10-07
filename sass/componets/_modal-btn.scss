@@ -1,0 +1,51 @@
+.modal-close-btn {
+  @extend %align;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 0;
+  background-color: var(--therd-text-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.modal-close-icon {
+  fill: #000000;
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+}
+
+.modal-form-btn {
+  padding: 10px 52px;
+  color: var(--therd-text-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  @include font(16px, 700, 1.9);
+  @extend %align;
+  text-align: center;
+  align-self: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  min-width: 200px;
+  height: 50px;
+  transition: background-color var(--transition-dur-and-funk),
+    box-shadow var(--transition-dur-and-funk);
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}

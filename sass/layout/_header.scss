@@ -1,0 +1,139 @@
+@media screen and (max-width: 767px) {
+  .navigation__menu {
+    display: none;
+  }
+
+  .navigation__addres {
+    display: none;
+  }
+  .open-mobile-menu {
+    line-height: 0;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .open-mobile-menu__icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.my-head {
+  border: 1px solid #ececec;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  position: relative;
+}
+
+.head-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .open-mobile-menu {
+    display: none;
+  }
+  /*navigation*/
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
+  .navigation__menu {
+    display: flex;
+    align-items: center;
+  }
+  .navigation__item:not(:last-child) {
+    margin-right: 50px;
+  }
+  .navigation__link {
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+  .link--static {
+    color: var(--accent-color);
+  }
+
+  .link__line::after {
+    position: absolute;
+    bottom: 0;
+    left: 30;
+    display: block;
+    content: "";
+    width: 42px;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+  }
+  .link__port::after {
+    position: absolute;
+    bottom: 0;
+    left: 30;
+    display: block;
+    content: "";
+    width: 78px;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+  }
+  /*navigation*/
+  /*addres*/
+  .link__addres {
+    font-style: normal;
+    @include font(12px, 500, 1.17);
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+  }
+  .navigation__item__marg {
+    margin-bottom: 10px;
+  }
+  .addres__svg {
+    margin-right: 8px;
+    fill: currentColor;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .my-head {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .navigation__link {
+    transition: color var(--transition-dur-and-funk);
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+
+  .navigation__addres {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  .navigation__item__marg {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+  .link__addres {
+    
+    font-size: 14px;
+    line-height: 1.14;
+    transition: color var(--transition-dur-and-funk);
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+  .addres__svg {
+    
+    margin-right: 10px;
+  }
+  
+}

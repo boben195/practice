@@ -1,0 +1,234 @@
+.foot-addres {
+  color: var(--therd-text-color);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+}
+.member-svg {
+  margin-bottom: 60px;
+}
+
+.foot-contact {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+  transition: color var(--transition-dur-and-funk);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.back-foot {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.logo-foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list__foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.foot-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #ffffff;
+}
+.foot-member-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+.link-footer-svg {
+  @extend %align;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  gap: 10px;
+  color: var(--therd-text-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color var(--transition-dur-and-funk);
+
+  &:hover,
+  &:focus {
+    color: var(--therd-text-color);
+    background-color: var(--accent-color);
+  }
+}
+.focus-footer-svg {
+  fill: currentColor;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .foot-form-email {
+    width: 220px;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .foot-form-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.foot-form-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.foot-form-email {
+  max-width: 450px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .mian-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .mian-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .foot-title {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .foot-member-svg {
+    margin-bottom: 0;
+  }
+  .logo-foot {
+    display: block;
+  }
+  .list__foot {
+    margin-bottom: 0;
+    display: block;
+  }
+  .list-foot {
+    margin-bottom: 9px;
+  }
+  .member-svg {
+    margin-bottom: 0;
+  }
+
+  .top-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .div-addres {
+    display: block;
+    margin-right: 70px;
+  }
+
+  .div-h {
+    display: block;
+  }
+  .foot-form-title {
+    display: block;
+  }
+  .foot-form-email {
+    width: 358px;
+    margin-bottom: 0;
+  }
+  .foot-form-btn-div {
+    display: flex;
+  }
+}
+
+/*
+.foot-addres {
+  color: var(--therd-text-color);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.foot-contact {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+  transition: color var(--transition-dur-and-funk);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.back-foot {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.foot-title {
+  font-size: 14px;
+  line-height: 1.14;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.list-foot {
+  margin-bottom: 9px;
+}
+
+.top-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.div-addres {
+  display: block;
+}
+
+.div-h {
+  display: block;
+}
+
+.link-footer-svg {
+  @extend %align;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  gap: 10px;
+  color: var(--therd-text-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color var(--transition-dur-and-funk);
+
+  &:hover,
+  &:focus {
+    color: var(--therd-text-color);
+    background-color: var(--accent-color);
+  }
+}
+
+.focus-footer-svg {
+  fill: currentColor;
+}
+*/

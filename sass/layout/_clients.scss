@@ -1,0 +1,139 @@
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .svg-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .clien-li {
+    width: 140px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transition: border-color var(--transition-dur-and-funk);
+
+    &:hover,
+    &:focus {
+      border-color: var(--accent-color);
+    }
+  }
+  .svg-client {
+    fill: #afb1b8;
+    transition: fill var(--transition-dur-and-funk);
+
+    &:hover,
+    &:focus {
+      fill: var(--accent-color);
+    }
+  }
+}
+@media screen and (min-width: 480px) {
+  .svg-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .clien-li {
+    width: 200px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transition: border-color var(--transition-dur-and-funk);
+
+    &:hover,
+    &:focus {
+      border-color: var(--accent-color);
+    }
+  }
+  .svg-client {
+    fill: #afb1b8;
+    transition: fill var(--transition-dur-and-funk);
+
+    &:hover,
+    &:focus {
+      fill: var(--accent-color);
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .clien-li {
+    width: 222px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .svg-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .clien-li {
+    width: 170px;
+  }
+}
+/*
+.clien-li {
+  width: 210px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  @extend %align;
+  margin: 0 auto;
+  transition: border-color var(--transition-dur-and-funk);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
+}
+
+.svg-client {
+  fill: #afb1b8;
+  transition: fill var(--transition-dur-and-funk);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+}*/
+
+/*.svg-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.clien-li {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  @extend %align;
+  margin: 0 auto;
+  transition: border-color var(--transition-dur-and-funk);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
+}
+
+.svg-client {
+  fill: #afb1b8;
+  transition: fill var(--transition-dur-and-funk);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+}*/

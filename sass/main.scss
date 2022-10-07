@@ -1,0 +1,28 @@
+@import "./utils/variables";
+@import "./utils/placeholder";
+@import "./utils/mixins";
+@import "./utils/visual-hidden";
+
+@import "./base/common";
+@import "./base/reset";
+
+@import "./componets/mobile-menu";
+@import "./componets/section";
+@import "./componets/container";
+@import "./componets/logo";
+@import "./componets/portfolio-btn";
+@import "./componets/foot-form";
+@import "./componets/modal-backdrop";
+@import "./componets/modal-btn";
+@import "./componets/modal-form";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/about";
+@import "./layout/whatWeDo";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/portfolio";
+@import "./layout/footer";
+
+

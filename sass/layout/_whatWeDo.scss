@@ -1,0 +1,35 @@
+@media screen and (max-width: 1199px) {
+    .section-pad {
+        display: none;
+    }
+}
+
+.list__whatWeDo {
+    display: flex;
+    gap: 30px;
+}
+
+.section-pad {
+    padding-top: 0px;
+    padding-bottom: 94px;
+}
+
+.position__whatWeDo {
+    position: relative;
+}
+
+.position__text {
+    position: absolute;
+    bottom: 0;
+
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--therd-text-color);
+
+    @extend %align;
+    margin: auto;
+    min-width: 370px;
+    min-height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+}
